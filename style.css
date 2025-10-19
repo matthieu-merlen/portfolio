@@ -55,6 +55,31 @@ body{
     border-radius: 1rem;
 }
 
+.navbar{
+    background-color: #282829;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-left: 40%;
+    
+    border: 1px solid;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-color: #808080;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar a.active {
+    color: #cc3535;
+}
+
+
+
 
 .main{
     background-color: #1e1e1f;
@@ -71,5 +96,4 @@ body{
 
     padding-bottom: 45rem;
     padding-left: 1rem;
-    padding-top: 2rem;
 }
