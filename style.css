@@ -60,18 +60,25 @@ body{
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    margin-left: 40%;
+    margin-left: 32%;
     
     border: 1px solid;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-color: #808080;
+
+    font-size: larger;
+
 }
 
 .navbar a{
     color: #ffffff;
     text-decoration: none;
     margin: 0 1rem;
+}
+
+.navbar a:hover{
+    color: #6c6c6c;
 }
 
 .navbar a.active {
