@@ -16,7 +16,7 @@ body{
 
     border: 1px solid;
     border-radius: 1rem;
-    border-color: #808080;
+    border-color: #666666;
 
     margin-top: 4rem;
     margin-left: 15vw;
@@ -70,7 +70,7 @@ body{
     border: 1px solid;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    border-color: #808080;
+    border-color: #666666;
 
     font-size: larger;
 
@@ -98,13 +98,14 @@ body{
 
     border: 1px solid;
     border-radius: 1rem;
-    border-color: #808080;
+    border-color: #666666;
 
     margin-top: 4rem;
     margin-right: 15vw;
 
-    padding-bottom: 45rem;
+    padding-bottom: 45rem; /* temp */
     padding-left: 1rem;
+    padding-right: 10px;
 }
 
 .main hr{
@@ -114,4 +115,52 @@ body{
     border-radius: 1rem;
     margin-right: 90%;
     height: 0.5rem;
+}
+
+.timeline{
+    position: relative;
+    max-width: 900px;
+    margin-top: 2rem;
+}
+
+.timeline::before{
+    background-color: #666666;
+    content: '';
+    position: absolute;
+    
+    left: 10px;
+    top: 8px;
+    bottom: 0;
+    width: 2px;
+}
+
+.timeline-item{
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 2.50rem;
+}
+
+.timeline-item::before{
+    background-color: #cc3535;
+    content: '';
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+
+    border: 3px solid #2a2a2a;
+    border-radius: 50%;
+}
+
+.timeline-item h3{
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.timeline-item .date{
+    color: #cc3535;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
 }
