@@ -106,7 +106,7 @@ body{
     margin-right: 15vw;
 
     padding-bottom: 45rem; /* temp */
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 .main hr{
@@ -177,7 +177,7 @@ body{
 }
 
 .presentation{
-    padding-right: 1rem;
+    padding-right: 2rem;
     padding-bottom: 0.1rem;
     font-size: larger;
 }
