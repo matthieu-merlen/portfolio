@@ -1,6 +1,6 @@
 body{
-      font-family: 'Ubuntu', sans-serif;
-      background-color: #111111;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #111111;
 }
 
 
@@ -173,4 +173,9 @@ body{
     color: #cc3535;
     margin-bottom: 0.5rem;
     font-size: 15px;
+}
+
+.presentation{
+    padding-right: 1rem;
+    font-size: larger;
 }
