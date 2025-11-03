@@ -167,6 +167,7 @@ body{
 .timeline-item h3{
     margin: 0 0 8px 0;
     font-weight: bold;
+    font-size: larger;
 }
 
 .timeline-item .date{
@@ -177,5 +178,6 @@ body{
 
 .presentation{
     padding-right: 1rem;
+    padding-bottom: 0.1rem;
     font-size: larger;
 }
