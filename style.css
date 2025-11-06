@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     background-color: #111111;
+    margin-bottom: 2rem;
 }
 
 
@@ -20,7 +21,7 @@ body{
     border-radius: 1rem;
     border-color: #666666;
 
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 15vw;
 
     padding-left: 1rem;
@@ -101,7 +102,7 @@ body{
     border-radius: 1rem;
     border-color: #666666;
 
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-right: 15vw;
 
     padding-bottom: 45rem; /* temp */
