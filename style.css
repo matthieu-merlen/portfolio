@@ -201,6 +201,10 @@ body{
     justify-content: flex-start;
 }
 
+.skill-card:hover{
+    border-color: #cc3535;
+}
+
 .skill-card img{
     width: 100px;
     height: 100px;
