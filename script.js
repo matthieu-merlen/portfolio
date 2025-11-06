@@ -11,3 +11,5 @@ links.forEach(link =>{
         link.classList.add('active');
     }
 });
+
+document.addEventListener('contextmenu', event => event.preventDefault());
