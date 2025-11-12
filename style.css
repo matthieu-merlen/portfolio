@@ -131,8 +131,8 @@ body{
 
 .timeline{
     position: relative;
-    max-width: 900px;
     margin-top: 2rem;
+    margin-right: 2rem;
 }
 
 .timeline::before{
@@ -169,13 +169,17 @@ body{
 .timeline-item h3{
     margin: 0 0 8px 0;
     font-weight: bold;
-    font-size: larger;
+    font-size: 22px;
 }
 
 .timeline-item .date{
     color: #cc3535;
     margin-bottom: 0.5rem;
     font-size: 15px;
+}
+
+.timeline-item .timeline-txt{
+    font-size: large;
 }
 
 .presentation{
