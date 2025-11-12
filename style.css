@@ -8,7 +8,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     gap: 1rem;
     align-items: start;
 }
@@ -22,12 +22,14 @@ body{
     border-color: #666666;
 
     margin-top: 2rem;
-    margin-left: 15vw;
+    margin-left: 10vw;
 
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
+    width: 15vw;
 }
 
 .info a{
@@ -103,7 +105,7 @@ body{
     border-color: #666666;
 
     margin-top: 2rem;
-    margin-right: 15vw;
+    margin-right: 10vw;
 
     padding-bottom: 45rem; /* temp */
     padding-left: 2rem;
