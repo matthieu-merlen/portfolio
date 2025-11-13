@@ -28,6 +28,10 @@ body{
     padding-bottom: 2rem;
     
     width: 15vw;
+
+    overflow: auto;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .info a{
