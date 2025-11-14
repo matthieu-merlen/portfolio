@@ -264,3 +264,40 @@ body{
     text-align: justify;
     line-height: 1.5rem;
 }
+
+.certif-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.certif-card{
+    background: #282829;
+    border: 1px solid;
+    border-color: #666666;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.certif-card:hover{
+    border-color: #cc3535;
+}
+
+.certif-card img{
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.certif-card h3{
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
