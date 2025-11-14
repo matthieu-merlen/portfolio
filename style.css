@@ -122,6 +122,7 @@ body{
     border-radius: 1rem;
     margin-right: 90%;
     height: 0.5rem;
+    margin-top: -0.5rem;
 }
 
 .main a{
