@@ -321,7 +321,7 @@ body{
     height: 100px;
     margin: 10px;
     vertical-align: middle;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
   
 @keyframes scroll{
