@@ -111,7 +111,7 @@ body{
     margin-top: 2rem;
     margin-right: 10vw;
 
-    padding-bottom: 45rem; /* temp */
+    padding-bottom: 2rem; /* temp */
     padding-left: 2rem;
 }
 
@@ -299,3 +299,37 @@ body{
 .certification i{
     color: #cc3535;
 }
+
+.bandeau{
+    height: 130px;
+    overflow: hidden;
+    margin-left: -2rem;
+}
+  
+.marquee{
+    white-space: nowrap;
+    overflow: hidden;
+}
+  
+.track{
+    display: inline-block;
+    animation: scroll 12s linear infinite;
+}
+  
+.bandeau img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    vertical-align: middle;
+    border-radius: 1rem;
+}
+  
+@keyframes scroll{
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-50%);
+    }
+}
+  
